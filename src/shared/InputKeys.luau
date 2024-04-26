@@ -1,12 +1,22 @@
 local InputKeys = {
 	["Z"] = {
-		KeyCode = Enum.KeyCode.Z,
-		Type = "Press"
+		Type = "Press",
+        Cooldown  = 3
 	},
 	["X"] = {
-		KeyCode = Enum.KeyCode.X,
-		Type = "Hold"
-	}
+		Type = "Hold",
+        Cooldown  = 3,
+        ChargeTime = 2
+	},
+    ["C"] = {
+        Type = "Press",
+        Cooldown = 3,
+        ChargeTime = 2
+    },
+    ["V"] = {
+        Type = "Hold",
+        Cooldown  = 3
+    }
 }
 
 return InputKeys
